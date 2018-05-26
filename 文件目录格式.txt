@@ -1,0 +1,16 @@
+﻿
+
+VS2015 (vc140)
+
+wxGui （解决方案）
++ 	wxGui（项目）
+- 	wxWidgets (3.1.1) https://github.com/wxWidgets/wxWidgets/releases/tag/v3.1.1
+	-	dll						
+		+	vc140_dll			(wxMSW-3.1.1_vc140_ReleaseDLL.7z)
+		+	vc140_x64_dll		(wxMSW-3.1.1_vc140_x64_ReleaseDLL.7z)
+	-	include					(wxWidgets-3.1.1-headers.7z)
+		-	msvc
+		-	wx
+	-	lib
+		+	vc140_dll			(wxMSW-3.1.1_vc140_Dev.7z)
+		+	vc140_x64_dll		(wxMSW-3.1.1_vc140_x64_Dev.7z)
