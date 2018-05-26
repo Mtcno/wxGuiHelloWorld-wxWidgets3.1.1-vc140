@@ -3,22 +3,17 @@
 
 
 
+
 #if defined(_WIN32) || defined(_WIN64)
 #define _CRT_SECURE_NO_DEPRECATE
 #define _CRT_NONSTDC_NO_DEPRECATE
-
+//#define __WXMSW__
 #define wxMSVC_VERSION_AUTO 
 #define WXUSINGDLL	//¶¯Ì¬Á´½Ó
 //#define wxUSE_GUI 1
 
-#ifdef _DEBUG
-#pragma comment(lib,"wxbase31ud.lib")
-#pragma comment(lib,"wxmsw31ud_core.lib")
-#else
-#pragma comment(lib,"wxbase31u.lib")
-#pragma comment(lib,"wxmsw31u_core.lib")
 #endif
-#endif
+
 
 
 
