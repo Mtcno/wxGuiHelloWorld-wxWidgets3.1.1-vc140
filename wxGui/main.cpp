@@ -1,7 +1,6 @@
 
 
-
-
+//https://wiki.wxwidgets.org/Guides_%26_Tutorials
 
 
 #if defined(_WIN32) || defined(_WIN64)
@@ -13,7 +12,6 @@
 //#define wxUSE_GUI 1
 
 #endif
-
 
 
 
